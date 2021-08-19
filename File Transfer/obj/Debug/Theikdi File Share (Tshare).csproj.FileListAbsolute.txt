@@ -1,0 +1,12 @@
+C:\Users\Acer-PC\Source\Repos\FileTransfer\File Transfer\File Transfer\bin\Debug\File Transfer.exe.config
+C:\Users\Acer-PC\Source\Repos\FileTransfer\File Transfer\File Transfer\bin\Debug\File Transfer.exe
+C:\Users\Acer-PC\Source\Repos\FileTransfer\File Transfer\File Transfer\bin\Debug\File Transfer.pdb
+C:\Users\Acer-PC\Source\Repos\FileTransfer\File Transfer\File Transfer\obj\Debug\Theikdi File Share (Tshare).csprojAssemblyReference.cache
+C:\Users\Acer-PC\Source\Repos\FileTransfer\File Transfer\File Transfer\obj\Debug\File_Transfer.mainForm.resources
+C:\Users\Acer-PC\Source\Repos\FileTransfer\File Transfer\File Transfer\obj\Debug\File_Transfer.NotificationForm.resources
+C:\Users\Acer-PC\Source\Repos\FileTransfer\File Transfer\File Transfer\obj\Debug\File_Transfer.Properties.Resources.resources
+C:\Users\Acer-PC\Source\Repos\FileTransfer\File Transfer\File Transfer\obj\Debug\Theikdi File Share (Tshare).csproj.GenerateResource.cache
+C:\Users\Acer-PC\Source\Repos\FileTransfer\File Transfer\File Transfer\obj\Debug\Theikdi File Share (Tshare).csproj.CoreCompileInputs.cache
+C:\Users\Acer-PC\Source\Repos\FileTransfer\File Transfer\File Transfer\obj\Debug\File Transfer.exe
+C:\Users\Acer-PC\Source\Repos\FileTransfer\File Transfer\File Transfer\obj\Debug\File Transfer.pdb
+C:\Users\Acer-PC\Source\Repos\FileTransfer\File Transfer\File Transfer\obj\Debug\File_Transfer.AboutBox1.resources

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="17.4.1" version="17.4.1" PreviousModules="msm" Modules="msm" RootPath="." Language="en" Id="{4A98B5DC-5D5A-44DE-BD25-A13F33B23251}">
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_ModuleId" Value="83D05B5B_F232_41ED_9228_EC4EF2EBA065"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPCONTACT" Value="Theikdi Maung"/>
+    <ROW Property="ARPHELPLINK" Value="https://theikdimaung.com"/>
+    <ROW Property="ARPHELPTELEPHONE" Value="(+95)9 263230440"/>
+    <ROW Property="ARPURLINFOABOUT" Value="https://theikdimaung.com"/>
+    <ROW Property="AspNetVersion" Value="2.0.50727.0"/>
+    <ROW Property="Manufacturer" Value="Theikdi Maung"/>
+    <ROW Property="ProductName" Value="Tshare"/>
+    <ROW Property="ProductVersion" Value="1.0.0"/>
+    <ROW Property="UpgradeCode" Value="{3D6D9937-4776-44FA-8535-BE0903F93046}"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="." IsPseudoRoot="1"/>
+    <ROW Directory="DesktopFolder" Directory_Parent="TARGETDIR" DefaultDir="DESKTO~1|DesktopFolder" IsPseudoRoot="1"/>
+    <ROW Directory="ProgramMenuFolder" Directory_Parent="TARGETDIR" DefaultDir="PROGRA~1|ProgramMenuFolder" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="_42973D7B56D04A53BB5BA87D4B54DE39" Directory_Parent="ProgramMenuFolder" DefaultDir="THEIKD~1|Theikdi Maung"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="C__2D9B8BFF0D53469388612C6E3BE80F3A" ComponentId="{844D844D-5A63-4BC8-93A8-DF9AE46ED44E}" Directory_="APPDIR" Attributes="0" KeyPath="_2D9B8BFF0D53469388612C6E3BE80F3A"/>
+    <ROW Component="C__38F8B5AEFAC044DD9EE3EF80D2C0476B" ComponentId="{54942D03-79CD-4C03-A0D3-60DB05D9870B}" Directory_="_42973D7B56D04A53BB5BA87D4B54DE39" Attributes="0" KeyPath="_38F8B5AEFAC044DD9EE3EF80D2C0476B"/>
+    <ROW Component="C__F9786F7508AE0684DEBD923945552D87" ComponentId="{1380F918-96E7-4755-8C3B-FD760A69801F}" Directory_="APPDIR" Attributes="0" KeyPath="_F9786F7508AE0684DEBD923945552D87"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="DefaultFeature" Title="DefaultFeature" Display="2" Level="1" Directory_="APPDIR" Attributes="0"/>
+    <ATTRIBUTE name="CurrentFeature" value="DefaultFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="_38F8B5AEFAC044DD9EE3EF80D2C0476B" Component_="C__38F8B5AEFAC044DD9EE3EF80D2C0476B" FileName="THEIKD~1.ICO|theikdi_logo_256_icon.ico" Attributes="512" SourcePath="..\..\..\..\..\Downloads\theikdi_logo_256_icon.ico" SelfReg="false"/>
+    <ROW File="_F9786F7508AE0684DEBD923945552D87" Component_="C__F9786F7508AE0684DEBD923945552D87" FileName="SYSTEM~1.DLL|System.Net.Http.dll" Attributes="512" SourcePath="System.Net.Http.dll" SelfReg="false"/>
+    <ROW File="_2D9B8BFF0D53469388612C6E3BE80F3A" Component_="C__2D9B8BFF0D53469388612C6E3BE80F3A" FileName="FILETR~1.EXE|File Transfer.exe" Attributes="512" SourcePath="..\File Transfer\obj\Release\File Transfer.exe" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" Languages="en" InstallationType="4" UseLargeSchema="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="MSMSequences.aip" Path="&lt;AI_FRAGS&gt;MSMSequences.aip"/>
+    <ROW Fragment="MsmValidation.aip" Path="&lt;AI_FRAGS&gt;MsmValidation.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiAssemblyComponent">
+    <ROW Component_="C__F9786F7508AE0684DEBD923945552D87" Feature_="DefaultFeature" File_Application="_F9786F7508AE0684DEBD923945552D87" Attributes="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiAssemblyNameComponent">
+    <ROW Component_="C__F9786F7508AE0684DEBD923945552D87" Name="Name" Value="System.Net.Http" Sync="false"/>
+    <ROW Component_="C__F9786F7508AE0684DEBD923945552D87" Name="Version" Value="4.0.0.0" Sync="false"/>
+    <ROW Component_="C__F9786F7508AE0684DEBD923945552D87" Name="Culture" Value="neutral" Sync="false"/>
+    <ROW Component_="C__F9786F7508AE0684DEBD923945552D87" Name="PublicKeyToken" Value="b03f5f7f11d50a3a" Sync="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatCompsComponent">
+    <ROW Feature_="DefaultFeature" Component_="C__38F8B5AEFAC044DD9EE3EF80D2C0476B"/>
+    <ROW Feature_="DefaultFeature" Component_="C__F9786F7508AE0684DEBD923945552D87"/>
+    <ROW Feature_="DefaultFeature" Component_="C__2D9B8BFF0D53469388612C6E3BE80F3A"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="_38F8B5AEFAC044D.exe" SourcePath="..\..\..\..\..\Downloads\theikdi_logo_256_icon.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="_CAB3D407BB514A33940618EA9BBDAB79" Directory_="_42973D7B56D04A53BB5BA87D4B54DE39" Name="Tshare" Component_="C__2D9B8BFF0D53469388612C6E3BE80F3A" Target="[#_2D9B8BFF0D53469388612C6E3BE80F3A]" Hotkey="0" Icon_="_38F8B5AEFAC044D.exe" IconIndex="0" ShowCmd="1" WkDir="APPDIR" Advertised="true"/>
+    <ROW Shortcut="_DCD9D938375745E78E8434FFA1379B01" Directory_="DesktopFolder" Name="Tshare" Component_="C__2D9B8BFF0D53469388612C6E3BE80F3A" Target="[#_2D9B8BFF0D53469388612C6E3BE80F3A]" Hotkey="0" Icon_="_38F8B5AEFAC044D.exe" IconIndex="0" ShowCmd="1" WkDir="APPDIR" Advertised="true"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsmModuleSignatureComponent">
+    <ROW ModuleID="MergeMod" Version="1.0.0" GUID="83D05B5B_F232_41ED_9228_EC4EF2EBA065" Name="Your Merge Module" Manufacturer="Your Company" Comments="This database contains the logic and data required to install &lt;module name&gt; component."/>
+  </COMPONENT>
+</DOCUMENT>
